@@ -42,12 +42,12 @@ A web application built with **React**, **Vite**, and the **Spotify API** to sea
 
 1. Click **START SETUP** to begin the Spotify authentication flow.
 2. After authenticating, get your token with **GET TOKEN**.
-3. Go to the **Dashboard** to search for music and play it on your devices.
+3. Go to the **Dashboard** and identify your device to search for music and play it on it.
 
 ## Requirements
 
 - Node.js 18+
-- **Spotify Premium account is required** for playback features
+- **Spotify Premium account is required**
 
 ## Credits
 

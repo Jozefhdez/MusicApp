@@ -4,18 +4,17 @@ A web application built with **React**, **Vite**, and the **Spotify API** to sea
 
 ## Features
 
-- 🔐 Secure authentication with Spotify OAuth2 (PKCE)
-- 🔎 Search for tracks, albums, artists, playlists, shows, episodes, and audiobooks
-- ▶️ Play music directly on your connected Spotify devices
-- 💚 Spotify-inspired user interface
-- 🟢 Easy navigation between register, login, and dashboard
+- Search for tracks, albums, artists, playlists, shows, episodes, and audiobooks
+- Play music directly on your connected Spotify devices
+- Spotify-inspired user interface
+- Easy navigation between register, login, and dashboard
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/youruser/music-app-spotify.git
-   cd music-app-spotify
+   git clone https://github.com/Jozefhdez/MusicApp
+   cd MusicApp
    ```
 
 2. **Install dependencies:**

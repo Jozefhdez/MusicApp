@@ -17,13 +17,13 @@ function App() {
     navigate('/dashboard');
   }
 
-  return (
-    <>
-    <h1>Hola mundo</h1>
-    <button onClick={handleSetup}>START SETUP</button>
-    <button onClick={handleGetToken}>GET TOKEN</button>
-    </>
-  )
+return (
+  <div className="app-container">
+    <h1 className="app-title">Music app</h1>
+    <button className="app-button" onClick={handleSetup}>START SETUP</button>
+    <button className="app-button" onClick={handleGetToken}>GET TOKEN</button>
+  </div>
+)
 }
 
 export default App

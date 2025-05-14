@@ -1,0 +1,132 @@
+body, html, #root {
+  height: 100%;
+  background: #121212 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  background: #121212;
+  color: #fff;
+  font-family: 'Circular Std', system-ui, Arial, sans-serif;
+  padding: 40px 0;
+}
+
+.dashboard-container {
+  background: #121212;
+  color: #fff;
+  font-family: 'Circular Std', system-ui, Arial, sans-serif;
+  padding: 40px 0;
+}
+
+.dashboard-title {
+  font-size: 2.2rem;
+  color: #1ed760;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.dashboard-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.dashboard-input,
+.dashboard-select {
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: none;
+  background: #242424;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 8px;
+  width: 260px;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-input:focus,
+.dashboard-select:focus {
+  background: #333;
+  box-shadow: 0 0 0 2px #1ed760;
+}
+
+.dashboard-button {
+  background: #1ed760;
+  color: #181818;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 6px 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.dashboard-button:hover {
+  background: #1db954;
+  color: #fff;
+}
+
+.dashboard-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+
+.dashboard-card {
+  background: #181818;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.4);
+  padding: 18px 16px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-card img {
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background: #222;
+}
+
+.dashboard-card-artist {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dashboard-card-play {
+  background: #1ed760;
+  color: #181818;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.dashboard-card-play:hover {
+  background: #1db954;
+  color: #fff;
+}
+
+.dashboard-select, .dashboard-select option {
+  text-transform: capitalize;
+}

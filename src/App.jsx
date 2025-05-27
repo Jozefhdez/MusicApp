@@ -19,7 +19,7 @@ function App() {
 
 return (
   <div className="app-container">
-    <h1 className="app-title">Music app</h1>
+    <h1 className="app-title">Music App</h1>
     <button className="app-button" onClick={handleSetup}>START SETUP</button>
     <button className="app-button" onClick={handleGetToken}>GET TOKEN</button>
   </div>

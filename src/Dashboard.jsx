@@ -110,6 +110,9 @@ const Dashboard = () => {
             >
               Play
             </button>
+            <button className="dashboard-card-play">
+              Add Favorite
+            </button>
           </div>
         ))}
       </div>
